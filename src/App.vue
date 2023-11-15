@@ -3,7 +3,7 @@
   <!-- Start Landing Page -->
   <header>
     <div class="container">
-      <a href="#" class="logo">M&E <b>APP</b></a>
+      <a href="#" class="logo">M&E <b>APP</b> <div class="sponsor">by Resilient Communities</div> </a>
       <!-- Hamburger Menu Button -->
       <button class="hamburger" @click="toggleMenu">{{ isMenuOpen ? '✕' : '☰' }}</button>
       <!-- Navigation Links -->
@@ -53,6 +53,10 @@ export default {
 </script>
 
 <style>
+
+.sponsor {
+  font-size: x-small;
+}
 #app {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
