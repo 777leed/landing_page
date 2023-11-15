@@ -22,7 +22,7 @@
         <div class="info">
           <h1>Rebuilding Hope in Earthquake-Affected Communities</h1>
           <p>Download our app to contribute to the restoration of villages, connect with impacted communities, and be a part of the journey towards resilience and recovery.</p>
-          <button class="btn_wl"><Span>Download</Span></button>
+          <button class="btn_wl"><a href="https://download1322.mediafire.com/t0ewziawf3bgs8Fh93V3midtgSuMff8rnjdZjMpeOP519Ak-6LDeThxvOY96nHgYCZh9PMnaypvZPc5VRkC2mlY2ryjwUS38mHwzCY7c0whnTtc2UmYg7Po-IL0d12F-gVKTYb_rw96dj4xufxngvu1RvxbLT5IrAUq_u2pu8in3vtw/cgu7fpvocgofp5c/app-release.apk" download="MnE_App.apk">Download</a></button>
         </div>
         <div class="image">
           <img src="./assets/Asset 1.png">
