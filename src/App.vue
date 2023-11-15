@@ -224,6 +224,7 @@ header .links li {
 }
 .landing-page .content .image img {
   max-width: 100%;
+  min-width: 252px;
   
 }
 
