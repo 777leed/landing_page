@@ -77,6 +77,9 @@ a {
 .btn_wl {
   font-size: large;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 body {
   font-family: 'Inter', sans-serif;
@@ -201,7 +204,7 @@ header .links li {
 }
 @media (max-width: 767px) {
   .landing-page .content .info {
-    text-align: center;
+    text-align: left;
     margin-bottom: 15px 
   }
 }
@@ -214,6 +217,8 @@ header .links li {
   line-height: 1.6;
   font-size: 15px;
   color: #5d5d5d;
+  max-width: 92%;
+  text-align: justify;
 }
 .landing-page .content .info button {
   border: 0;
@@ -271,6 +276,12 @@ header .links li {
     display: block;
 
   }
+
+  .landing-page .content .info h1 {
+    color: #5d5d5d;
+    font-size: 24px;
+  }
+
   header .links {
     display: flex;
     flex-direction: column;
