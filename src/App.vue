@@ -1,6 +1,7 @@
 
 <template>
   <!-- Start Landing Page -->
+  
   <header>
     <div class="container">
       <a href="#" class="logo">M&E <b>APP</b> <div class="sponsor">by Resilient Communities</div> </a>
@@ -22,7 +23,16 @@
         <div class="info">
           <h1>Rebuilding Hope in Earthquake-Affected Communities</h1>
           <p>Download our app to contribute to the restoration of villages, connect with impacted communities, and be a part of the journey towards resilience and recovery.</p>
-          <button class="btn_wl"><a href="https://download937.mediafire.com/q0x7sz7e846gYTZHqOFBsf0rsE9JsbrCBgY6q_9S6ZqG0U014A5s849hHKIonL_22SQeqW4dS1IfQxCK4nCfpdjF3crbqrT-GZ0lm8bZphdlp4V_di5pW3IyjO-o0MVLLuvZiLaOnbsIVLHEs91BDAiDE481sNqnD1yxA5DQPuOq/r1sv0w11f2b6hzj/app-release.apk" download="MnE_App.apk">Download</a></button>
+          <div class="cta">
+            <button class="btn_wl">
+              <a href="https://download937.mediafire.com/q0x7sz7e846gYTZHqOFBsf0rsE9JsbrCBgY6q_9S6ZqG0U014A5s849hHKIonL_22SQeqW4dS1IfQxCK4nCfpdjF3crbqrT-GZ0lm8bZphdlp4V_di5pW3IyjO-o0MVLLuvZiLaOnbsIVLHEs91BDAiDE481sNqnD1yxA5DQPuOq/r1sv0w11f2b6hzj/app-release.apk" download="MnE_App.apk">Download</a>
+            </button>
+            <button class="empty-inside"><a href="https://github.com/777leed/montoring_app">Read More</a></button>
+
+          </div>
+         
+
+
         </div>
         <div class="image">
           <img src="./assets/Asset 1.png">
@@ -74,17 +84,44 @@ a {
   color: inherit;
 }
 
+.cta {
+  display: flex;
+  gap: 3%;
+}
+
+
 .btn_wl {
+  color: #FFF;
   font-size: large;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #8dd252;
+  border: 0;
+
+
+}
+
+.empty-inside {
+  background-color: white;
+  border: 1px solid #8dd252;
+  font-size: large;
+  display: flex;
+  color: #5d5d5d;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 body {
   font-family: 'Inter', sans-serif;
   padding: 0;
   margin: 0;
+  background-color: #e5e5f7;
+opacity: 0.8;
+background-image: radial-gradient(#8dd252 0.5px, #e5e5f7 0.5px);
+background-size: 10px 10px;
 }
 a {
   text-decoration: none;
@@ -221,13 +258,11 @@ header .links li {
   text-align: justify;
 }
 .landing-page .content .info button {
-  border: 0;
   border-radius: 20px;
   padding: 12px 30px;
   margin-top: 30px;
   cursor: pointer;
-  color: #FFF;
-  background-color: #8dd252;
+  
   margin-bottom: 20%;
 
 }
